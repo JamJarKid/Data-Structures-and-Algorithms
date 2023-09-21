@@ -1,5 +1,1 @@
-fn linearsearch(needle: Int, haystack: ListLiteral) -> Bool:
-    for i in range(len(haystack)):
-        if haystack.get[0, Int]() == needle:
-            return True
-    return False
+
