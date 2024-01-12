@@ -1,5 +1,10 @@
+from typing import Optional, TypeVar
+
+T = TypeVar("T")
+
+
 class StaticArray:
-    def __init__(self, size: int, data_type: type, data: list = None):
+    def __init__(self, size: int, data_type: type, data: Optional[list[T]] = None):
         
         if data is not None:
             self._data = data
